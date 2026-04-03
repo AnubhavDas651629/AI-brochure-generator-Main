@@ -5,7 +5,7 @@ headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
 
-def fetch_website_content(url):
+def fetch_website_contents(url):
     """
     Return the title and content of the website at the given url:
     truncate to 2000 characters as a sesnible limit
